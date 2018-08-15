@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{a9470c20-c111-48fa-9ffb-894f33022ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\SourceFiles">
+      <UniqueIdentifier>{2b928683-bc3f-492a-ad1f-7151325c164f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\HeaderFiles">
+      <UniqueIdentifier>{469cdf9e-9d72-4744-a62f-b33afc5cf32d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncDecTests.cpp">
+      <Filter>Tests\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClassBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C37118ProtocolTests.cpp">
+      <Filter>Tests\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="C37118DataTypesTests.cpp">
+      <Filter>Tests\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilsTests.cpp">
+      <Filter>Tests\SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestClassBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncDecTests.h">
+      <Filter>Tests\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="C37118ProtocolTests.h">
+      <Filter>Tests\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="C37118DataTypesTests.h">
+      <Filter>Tests\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsTests.h">
+      <Filter>Tests\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

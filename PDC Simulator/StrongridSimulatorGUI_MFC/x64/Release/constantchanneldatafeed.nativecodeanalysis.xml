@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>constantchanneldatafeed.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::ConstantPhasorDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0ConstantPhasorDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>constantchanneldatafeed.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::ConstantAnalogDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0ConstantAnalogDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>constantchanneldatafeed.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::ConstantDigitalDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0ConstantDigitalDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

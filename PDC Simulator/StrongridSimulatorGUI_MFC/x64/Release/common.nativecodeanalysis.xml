@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>common.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6101</DEFECTCODE>
+    <DESCRIPTION>Returning uninitialized memory '*pnHelpContext'.  A successful path through the function does not set the named _Out_ parameter. </DESCRIPTION>
+    <FUNCTION>strongridgui::SimException::GetErrorMessage</FUNCTION>
+    <DECORATED>?GetErrorMessage@SimException@strongridgui@@UEBAHPEA_WIPEAI@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*pnHelpContext' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*pnHelpContext' is an _Out_ parameter that may not have been assigned to</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>common.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'lpszError' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>strongridgui::SimException::GetErrorMessage</FUNCTION>
+    <DECORATED>?GetErrorMessage@SimException@strongridgui@@UEBAHPEA_WIPEAI@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'lpszError'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+        <FILENAME>common.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lpszError' should be zero-terminated but may not be</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

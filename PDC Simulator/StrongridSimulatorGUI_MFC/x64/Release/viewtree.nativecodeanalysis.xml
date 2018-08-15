@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>viewtree.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>CViewTree::{ctor}</FUNCTION>
+    <DECORATED>??0CViewTree@@QEAA@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>viewtree.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26454</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: '-' operation produces a negative unsigned result at compile time (io.5).</DESCRIPTION>
+    <FUNCTION>CViewTree::OnNotify</FUNCTION>
+    <DECORATED>?OnNotify@CViewTree@@MEAAH_K_JPEA_J@Z</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

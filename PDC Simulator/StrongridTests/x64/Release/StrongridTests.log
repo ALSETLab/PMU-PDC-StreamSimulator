@@ -1,0 +1,62 @@
+﻿  Assert.cpp
+  C37118DataTypesTests.cpp
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(19): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(20): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(33): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(34): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(49): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118datatypestests.cpp(50): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+  C37118ProtocolTests.cpp
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(66): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(72): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(77): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(152): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(159): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(163): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(205): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(295): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(296): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(297): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(298): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(298): warning C4244: 'argument': conversion from 'double' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(305): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(306): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(307): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(310): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(340): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(366): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(373): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(374): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(377): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(378): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(381): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(405): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(483): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(489): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(494): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(508): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(509): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(604): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(610): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(615): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(629): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(630): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(677): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\c37118protocoltests.cpp(678): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+  EncDecTests.cpp
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(12): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(12): warning C4309: 'initializing': truncation of constant value
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(42): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(42): warning C4309: 'initializing': truncation of constant value
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(58): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(58): warning C4309: 'initializing': truncation of constant value
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(70): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\greyjordan\documents\strongriddll\strongridtests\encdectests.cpp(70): warning C4309: 'initializing': truncation of constant value
+  main.cpp
+  TestClassBase.cpp
+  UtilsTests.cpp
+  Generating code
+  All 1884 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  StrongridTests.vcxproj -> C:\Users\GreyJordan\Documents\StrongridDLL\x64\Release\StrongridTests.exe

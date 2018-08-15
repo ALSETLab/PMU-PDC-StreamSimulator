@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridtests\</FILEPATH>
+      <FILENAME>testclassbase.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tests::TestResult::testOk' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tests::TestResult::{ctor}</FUNCTION>
+    <DECORATED>??0TestResult@tests@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridtests\</FILEPATH>
+      <FILENAME>testclassbase.h</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tests::TestClassBase::TestMethodMediator::tm' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tests::TestClassBase::TestMethodMediator::{ctor}</FUNCTION>
+    <DECORATED>??0TestMethodMediator@TestClassBase@tests@@QEAA@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

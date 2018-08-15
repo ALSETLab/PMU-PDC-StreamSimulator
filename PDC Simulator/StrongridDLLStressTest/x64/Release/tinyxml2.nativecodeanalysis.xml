@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>149</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::StrPair::{ctor}</FUNCTION>
+    <DECORATED>??0StrPair@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>330</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::MemPool::{ctor}</FUNCTION>
+    <DECORATED>??0MemPool@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>330</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>1225</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLAttribute::{ctor}</FUNCTION>
+    <DECORATED>??0XMLAttribute@tinyxml2@@AEAA@XZ</DECORATED>
+    <FUNCLINE>1225</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>336</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>tinyxml2::StrPair::GetStr</FUNCTION>
+    <DECORATED>?GetStr@StrPair@tinyxml2@@QEAAPEBDXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>1996</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLDocument::{ctor}</FUNCTION>
+    <DECORATED>??0XMLDocument@tinyxml2@@QEAA@_NW4Whitespace@1@@Z</DECORATED>
+    <FUNCLINE>1996</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>2400</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::XMLPrinter::_entityFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLPrinter::{ctor}</FUNCTION>
+    <DECORATED>??0XMLPrinter@tinyxml2@@QEAA@PEAU_iobuf@@_NH@Z</DECORATED>
+    <FUNCLINE>2400</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>2400</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::XMLPrinter::_restrictedEntityFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLPrinter::{ctor}</FUNCTION>
+    <DECORATED>??0XMLPrinter@tinyxml2@@QEAA@PEAU_iobuf@@_NH@Z</DECORATED>
+    <FUNCLINE>2400</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>2400</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLPrinter::{ctor}</FUNCTION>
+    <DECORATED>??0XMLPrinter@tinyxml2@@QEAA@PEAU_iobuf@@_NH@Z</DECORATED>
+    <FUNCLINE>2400</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>2444</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLPrinter::Print</FUNCTION>
+    <DECORATED>?Print@XMLPrinter@tinyxml2@@IEAAXPEBDZZ</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;char,20&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char,20&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@D$0BE@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char,20&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@D$0BE@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;char const *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char const *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEBD$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char const *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEBD$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::MemPoolT&lt;104&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$MemPoolT@$0GI@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::MemPoolT&lt;112&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$MemPoolT@$0HA@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::MemPoolT&lt;80&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$MemPoolT@$0FA@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::MemPoolT&lt;120&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$MemPoolT@$0HI@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>348</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAVXMLNode@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAVXMLNode@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0GI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0GI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0FA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0FA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::_pool' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongriddllstresstest\dependencies\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

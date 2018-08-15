@@ -1,0 +1,9 @@
+﻿  ConfigInterpreter.cpp
+c:\users\greyjordan\documents\strongriddll\strongriddll\strongrid.h(142): warning C4091: 'typedef ': ignored on left of 'PmuStatus' when no variable is declared
+  tinyxml2.cpp
+  main.cpp
+c:\users\greyjordan\documents\strongriddll\strongriddll\strongrid.h(142): warning C4091: 'typedef ': ignored on left of 'PmuStatus' when no variable is declared
+  Generating code
+  All 646 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  StrongridDLLStressTest.vcxproj -> C:\Users\GreyJordan\Documents\StrongridDLL\x64\Release\StrongridDLLStressTest.exe

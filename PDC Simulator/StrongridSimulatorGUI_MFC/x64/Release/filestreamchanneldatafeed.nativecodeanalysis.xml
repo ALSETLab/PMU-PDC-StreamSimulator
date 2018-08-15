@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>filestreamchanneldatafeed.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::CsvFileStreamDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0CsvFileStreamDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>filestreamchanneldatafeed.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::FilestreamPhasorDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0FilestreamPhasorDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>filestreamchanneldatafeed.cpp</FILENAME>
+      <LINE>132</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::FilestreamAnalogDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0FilestreamAnalogDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>132</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\greyjordan\documents\strongriddll\strongridsimulatorgui_mfc\</FILEPATH>
+      <FILENAME>filestreamchanneldatafeed.cpp</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>strongridgui::FilestreamDigitalDataFeed::{ctor}</FUNCTION>
+    <DECORATED>??0FilestreamDigitalDataFeed@strongridgui@@QEAA@XZ</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

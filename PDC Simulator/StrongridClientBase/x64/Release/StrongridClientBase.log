@@ -1,0 +1,6 @@
+﻿  PdcClient.cpp
+c:\users\greyjordan\documents\strongriddll\strongridclientbase\pdcclient.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  TcpClient.cpp
+c:\users\greyjordan\documents\strongriddll\strongridclientbase\tcpclient.cpp(47): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\greyjordan\documents\strongriddll\strongridclientbase\tcpclient.cpp(53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  StrongridClientBase.vcxproj -> C:\Users\GreyJordan\Documents\StrongridDLL\x64\Release\StrongridClientBase.lib

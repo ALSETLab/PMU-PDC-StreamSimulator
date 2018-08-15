@@ -1,0 +1,5 @@
+<config>
+	<PdcPool>
+		<PDC IP="127.0.0.1" Port="4712" PDCID="47" Version="1"/>
+	</PdcPool>
+</config>
