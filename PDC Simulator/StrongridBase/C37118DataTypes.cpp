@@ -316,14 +316,14 @@ void C37118PmuDataFramePhasorRealImag::getMagAngleAsInt16(uint16_t* mag, int16_t
 C37118PmuDataFrameAnalog C37118PmuDataFrameAnalog::CreateByInt16(int16_t value)//Sets analog value 
 {
 	C37118PmuDataFrameAnalog ang;
-	ang.Value = value;
+	ang.Value = value*100000;
 	return ang;
 }
 
 C37118PmuDataFrameAnalog C37118PmuDataFrameAnalog::CreateByFloat(float value)
 {
 	C37118PmuDataFrameAnalog ang;
-	ang.Value = value;
+	ang.Value = value*100000;
 	return ang;
 }
 		
