@@ -1,6 +1,6 @@
 #include <process.h>
 #include <iostream>
-#include <Windows.h>
+#include <windows.h>
 #include "PdcClient.h"
 #include "../StrongridBase/common.h"
 #include "../StrongridBase/C37118Protocol.h";
@@ -8,7 +8,7 @@
 using namespace strongridclientbase;
 using namespace strongridbase;
 
-const int BUFFER_SIZE = 4096;
+const int BUFFER_SIZE = 131072;
 
 PdcClient::PdcClient( std::string ipAddress, int port, int pdcIdCode )
 {
